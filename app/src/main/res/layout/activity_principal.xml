@@ -35,6 +35,19 @@
         android:inputType="numberDecimal" />
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operacion"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/cmbOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
         android:id="@+id/lblResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,6 +61,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnOperacion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
