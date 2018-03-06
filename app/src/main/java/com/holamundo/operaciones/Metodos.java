@@ -11,7 +11,7 @@ public class Metodos {
     public static double restar(double N1, double N2){
         return N1-N2;
     }
-    public static double multiplicar(double N1, double N2){return N1*N2;}
+    public static double multiplicar(double N1, double N2){ return N1*N2; }
     public static double dividir(double N1, double N2){
         return N1/N2;
     }
